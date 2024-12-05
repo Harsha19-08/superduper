@@ -1,0 +1,17 @@
+{
+  "name": "lms-system",
+  "version": "1.0.0",
+  "description": "Learning Management System with React",
+  "scripts": {
+    "start": "cd client && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run start\""
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "axios": "^1.7.9",
+    "concurrently": "^8.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "react-toastify": "^10.0.6"
+  }
+}
